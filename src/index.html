@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Syne:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Syne&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Problem statement 
+    
+    -Create a web page that showcases job listings including:
+    *A navbar at the top with a logo
+    *A header section displaying a picture and some relevant information
+    *A list of job opennings that include the designation.location and salary
+    *A footer at the bottom of the web page with important links 
+
+
+    Make the page visualy appealing and informative
+    
+    -->
+    <div id="navbar">
+        <img id="logo" src="https://thumbs.dreamstime.com/t/warrior-zulu-shield-spears-isolate-17445718.jpg" alt="logo">
+    </div>
+    <img class="banner"
+        src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG8lMjBzb21ldGhpbmclMjBncmVhdHxlbnwwfHwwfHx8MA%3D%3D"
+        alt="sunnset" height="360px">
+    <h1>About Zulu.Inc</h1>
+
+
+
+    <!-- The p and span are both used to define text in HTML
+        -The p tag defines a paragraph of text and is typically used for longer sections of text that form a disticnt block
+
+        -The span tag defines a small section of text and is typically used for inline styling such as changing the color if a single word or phrase
+    -->
+    <div id="About">
+        <div id="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate nostrum, illum, exercitationem
+                consequatur
+                iste aliquam explicabo aliquid rem quam cupiditate excepturi. Eveniet atque ex corrupti recusandae
+                maxime nisi
+                natus!</p>
+            <p>
+                Zulu Inc provides :
+            <ol>
+                <li> <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiq6cq7iNKCAxVPXEEAHV4KBY4QPAgJ">Full
+                        project
+                        builds
+                    </a>
+                </li>
+                <li><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiq6cq7iNKCAxVPXEEAHV4KBY4QPAgJ">Tailor
+                        made
+                        applications to the clients needs/specifications
+                    </a>
+                </li>
+            </ol>
+            </p>
+
+        </div>
+        <div id="team">
+            <img id="team-img"
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVhbXxlbnwwfHwwfHx8MA%3D%3D"
+                alt="team">
+        </div>
+    </div>
+    <h2>Job Opportunities</h2>
+    <div id="Jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+                <!-- row span  -->
+            </tr>
+            <tr class="job-data-row">
+                <td>Frontend Developer</td>
+                <td>Johannesburg</td>
+                <td>South Africa</td>
+                <td>R45,000</td>
+                <td>Mar 3,2023</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>Backend Developer</td>
+                <td>Johannesburg</td>
+                <td>South Africa</td>
+                <td>R55,000</td>
+                <td>Apr 13,2023</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>Full Stack Developer</td>
+                <td>Johannesburg</td>
+                <td>South Africa</td>
+                <td>R75,000</td>
+                <td>Jan 17,2023</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>Data Scientist</td>
+                <td>Johannesburg</td>
+                <td>South Africa</td>
+                <td>R48,000</td>
+                <td>Aug 23,2023</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>ML Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>R65,000</td>
+                <td>Jun 31,2023</td>
+            </tr>
+
+        </table>
+        <!--  <div class="">
+            <a href="mailto:zulusibusiso81@gmail.com?subject=FrontendDeveloper" class="apply">Apply</a>
+            <h3>Frontend Developer</h3>
+            <div class="location">Johannesburg,South Africa</div>
+        </div>
+        <div class="">
+            <a href="mailto:zulusibusiso81@gmail.com?subject=BackendDevleoper" class="apply">Apply</a>
+            <h3>Backend Developer</h3>
+            <div class="location">Johannesburg,South Africa</div>
+        </div>
+        <div class="">
+            <a href="mailto:zulusibusiso81@gmail.com?subject=DataScicentis" class="apply">Apply</a>
+            <h3>Data Scientist</h3>
+            <div class="location">Johannesburg,South Africa</div>
+        </div> -->
+    </div>
+    <div id="Application">
+        <h2>Submit Your Application</h2>
+        <form action="" id="Application-form">
+
+            <div class="Form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" placeholder="Batman" required>
+            </div>
+
+            <div class="Form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email address" placeholder="Batcave@gothamneedsme.com" required>
+            </div>
+
+            <div class="Form-group">
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="Phone Number" placeholder="+27 67 877 1172" required>
+            </div>
+            <div class="Form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="Form-group">
+                <label for="Position">Position Applied for </label><br>
+                <select name="Position Applied" id="Position">
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Data Scicents">Data Scicents</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                    <option value="Backend Devleoper">Backend Devleoper</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                </select>
+                <div class="form-group">
+                    <label for="resume">Upload Resume</label><br>
+                    <input type="file" name="resume" id="resume" accept=".pdf , .doc , .docx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cover letter">Cover Letter</label><br>
+                    <textarea name="cover letter" id="cover letter" cols="20" rows="10" ></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="terms">
+                    <input type="checkbox" name="terms" id="terms"  required>
+                    I agree to the terms and conditions 
+                </label>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit Application">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div id="footer">
+
+        <ul id="footer-links">
+            <li> <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiq6cq7iNKCAxVPXEEAHV4KBY4QPAgJ"
+                    target="_blank">
+                    About
+                </a>
+            </li>
+            <li><a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiq6cq7iNKCAxVPXEEAHV4KBY4QPAgJ"
+                    target="_blank">
+                    Progammes
+                </a>
+            </li>
+            <li> <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiq6cq7iNKCAxVPXEEAHV4KBY4QPAgJ"
+                    target="_blank">
+                    Coporate
+                </a>
+            </li>
+        </ul>
+        <span>©2020,Zulu.Inc</span>
+    </div>
+    </div>
+
+</body>
+
+</html>

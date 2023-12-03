@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Inter',sans-serif;
+}
+/* Sizing guidlines 
+
+-For body text ,16px is commonly used fint size that ensures comfortable reading 
+-Smaller text can be set to 0,875 rem(14px) for optimal legibility
+-Larger text should be set to 1.25 rem (20px) to emphasize important content 
+
+
+h1-2.5rem (40px)
+h2-2 rem (32px)
+h3-1.75 rem (28px)
+h4 - 1.5 rem(24px)
+h5-1.25 rem (20px)
+h6 - 1 rem(16px)
+
+
+*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Syne',monospace;
+}
+#navbar {
+    padding: 8px;
+}
+
+#logo {
+    height: 60px;
+}
+
+.banner {
+    object-fit: cover;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#About {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 8px;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+}
+
+#team {
+    width: 50%;
+}
+
+#team-img {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: rgb(144, 179, 210);
+    text-align: center;
+}
+.job-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table tr:nth-child(odd){
+    background-color: ghostwhite;
+}
+#Jobs {
+    margin: 0 auto;
+    padding: 0 8px;
+    max-width: 800px;
+
+}
+
+.apply {
+    float: right;
+}
+
+.location {
+    color: gray;
+    margin-bottom: 16px;
+}
+#footer{
+    background-color: ghostwhite;
+    text-align: center; 
+    margin-top: 32px;
+}
+#footer-links{
+    list-style: none; 
+}
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+.copyright{
+    color: gray;
+}
+#Application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+
+}
+#Application-form div{
+    margin: 16px 0;
+}
+#Application-form label{
+    font-weight: 600px;
+    
+
+}
+#Application-form input,select{
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form-group textarea{
+    width: 80%;
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"]{
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: 400px;
+    cursor: alias;
+}
