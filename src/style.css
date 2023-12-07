@@ -4,8 +4,15 @@ body {
     font-family:'Inter',sans-serif;
 }
 
+@media screen and (orientation:landscape){
+    body{
+        background-color: aliceblue;
+        
+    }
+};
+    
 
-*/
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Syne',monospace;
 }
@@ -20,6 +27,7 @@ h1,h2,h3,h4,h5,h6{
 .banner {
     object-fit: cover;
     width: 100%;
+    height: 150px;
 }
 
 a {
@@ -143,4 +151,54 @@ h3 {
     color: whitesmoke;
     font-weight: 400px;
     cursor: alias;
+}
+
+#navbar{
+    padding: 8px;
+    margin: 0;
+}
+#logo{
+    display: block;
+}
+#logo-with-text{
+    display: none;
+}
+.banner {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+
+/* Small Devices (Tablets) */
+@media screen and (min-width:576px){
+html{
+    font-size: 16px;
+}
+#logo{
+    display: none;
+}
+#logo-with-text{
+    display: block;
+}
+.banner{
+    height: 220px;
+}
+  
+}
+
+/* Medium devices (Laptop) */
+@media screen and(min-width:768px){
+   .banner{
+    height: 300px;
+   }
+}
+/* Large devices (desktops) */
+@media screen and (min-width:992px){
+    
+}
+/* Extra Large devices */
+@media screen and (min-width:1200px){
+    .banner{
+        height: 320px;
+    }
 }
