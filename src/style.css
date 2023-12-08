@@ -161,7 +161,7 @@ h2 {
 
 }
 
-.Form-group input, select , textarea{
+.form-group input, select , textarea{
     width: 90%;
     padding: 8px;
     font-size: 1.25rem;
@@ -170,11 +170,11 @@ h2 {
     border: 1px solid gray;
 }
 
-.Form-group textarea {
+.form-group textarea {
     width: 80%;
 }
 
-.Form-group input[type="checkbox"] {
+.form-group input[type="checkbox"] {
     width: 16px;
     height: 16px;
 }
