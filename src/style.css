@@ -179,7 +179,7 @@ h2 {
     height: 16px;
 }
 
-.Form-group input[type="submit"] {
+.form-group input[type="submit"] {
     background-color: gray;
     color: whitesmoke;
     font-weight: 400px;
