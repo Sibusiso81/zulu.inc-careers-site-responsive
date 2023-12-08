@@ -346,11 +346,16 @@ h2 {
 
     /* Large devices (desktops) */
     @media screen and (min-width:992px) {}
-
+    body{
+        background-color: white;
+    }
     /* Extra Large devices */
     @media screen and (min-width:1200px) {
         .banner {
             height: 250px;
+        }
+        body{
+            background-color: #fff;
         }
     }
 }
