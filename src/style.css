@@ -4,16 +4,6 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-@media screen and (orientation:landscape) {
-    body {
-        background-color: aliceblue;
-
-    }
-}
-
-;
-
-
 
 h1,
 h2,
@@ -32,11 +22,6 @@ h6 {
     height: 60px;
 }
 
-/* .banner {
-    object-fit: cover;
-    width: 100%;
-    height: 150px;
-} */
 
 a {
     text-decoration: none;
@@ -47,44 +32,13 @@ h1 {
     text-align: center;
 }
 
-/* h2 {
-    text-align: center;
-} */
+
 
 h3 {
     margin-bottom: 0;
     margin-top: 0;
 }
 
-/* #About {
-    display: flex;
-    max-width: 800px;
-    margin: auto;
-    padding: 8px;
-}
- */
-/* #description {
-    width: 50%;
-    padding-right: 8px;
-    font-size: 1.25rem;
-} */
-
-/* #team {
-    width: 50%;
-} */
-
-/* #team-img {
-    height: 230px;
-    width: 100%;
-    object-fit: cover;
-}
- */
-/* #jobs-table {
-    display: table;
-    width: 100%;
-    border: 1px solid gray;
-    border-collapse: collapse;
-} */
 
 .jobs-header-row th {
     border: 1px solid gray;
@@ -93,22 +47,8 @@ h3 {
     text-align: center;
 }
 
-/* .job-data-row td {
-    border: 1px solid gray;
-    padding: 8px;
-}
 
-#jobs-table tr:nth-child(odd) {
-    background-color: ghostwhite;
-} */
 
-/* #Jobs {
-    margin: 0 auto;
-    padding: 0 8px;
-    max-width: 800px;
-
-}
- */
 .apply {
     float: right;
 }
@@ -118,68 +58,6 @@ h3 {
     margin-bottom: 16px;
 }
 
-/* #footer {
-    background-color: ghostwhite;
-    text-align: center;
-    margin-top: 32px;
-}
-
-#footer-links {
-    list-style: none;
-}
-
-#footer-links li {
-    display: inline;
-    margin: 0 16px;
-}
-
-.copyright {
-    color: gray;
-} */
-
-/* 
-#Application {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 8px;
-
-}
-
-#Application-form div {
-    margin: 16px 0;
-}
-
-#Application-form label {
-    font-weight: 600px;
-
-
-}
-
-#Application-form input,
-select {
-    padding: 4px;
-    font-size: 1.25rem;
-    margin-top: 4px;
-    border-radius: 5px;
-    border: 1px solid gray;
-}
-
-.form-group textarea {
-    width: 80%;
-}
-
-.form-group input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
-}
-
-.form-group input[type="submit"] {
-    background-color: gray;
-    color: whitesmoke;
-    font-weight: 400px;
-    cursor: alias;
-}
- */
 #navbar {
     padding: 8px;
     margin: 0;
@@ -282,8 +160,8 @@ h2 {
 
 
 }
-/* Find  how to target multiple classes  */
-.form-group input ,input, select , textarea{
+
+.Form-group input, select , textarea{
     width: 90%;
     padding: 8px;
     font-size: 1.25rem;
@@ -292,16 +170,16 @@ h2 {
     border: 1px solid gray;
 }
 
-.form-group textarea {
+.Form-group textarea {
     width: 80%;
 }
 
-.form-group input[type="checkbox"] {
+.Form-group input[type="checkbox"] {
     width: 16px;
     height: 16px;
 }
 
-.form-group input[type="submit"] {
+.Form-group input[type="submit"] {
     background-color: gray;
     color: whitesmoke;
     font-weight: 400px;
